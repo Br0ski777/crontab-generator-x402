@@ -31,6 +31,35 @@ Do NOT use for parsing existing cron expressions -- use schedule_parse_cron inst
         },
         required: ["description"],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "expression": {
+              "type": "string",
+              "description": "Generated cron expression"
+            },
+            "explanation": {
+              "type": "string",
+              "description": "Human-readable explanation"
+            },
+            "input": {
+              "type": "string",
+              "description": "Original natural language description"
+            },
+            "nextExecutions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Next execution times"
+            }
+          },
+          "required": [
+            "expression",
+            "explanation",
+            "input"
+          ]
+        },
     },
   ],
 };
