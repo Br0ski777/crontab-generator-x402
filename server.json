@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "sse",
-      "url": "https://crontab-generator-x402-production.up.railway.app/mcp"
+      "url": "https://crontab-generator.api.klymax402.com/mcp"
     }
   ]
 }
