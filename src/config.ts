@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/generate",
-      price: "$0.001",
+      price: "$0.003",
       description: "Generate a cron expression from natural language",
       toolName: "utility_generate_crontab",
       toolDescription: `Use this when you need to generate a cron expression from a natural language description like "every Monday at 9am" or "every 5 minutes". Returns the cron expression with validation.
