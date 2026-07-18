@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `utility_generate_crontab` | POST | `/api/generate` | $0.001 | Generate a cron expression from natural language |
+| `utility_generate_crontab` | POST | `/api/generate` | $0.003 | Generate a cron expression from natural language |
 
 ### `utility_generate_crontab`
 
